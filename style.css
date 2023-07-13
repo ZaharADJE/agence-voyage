@@ -6,6 +6,9 @@
     font-family: 'Raleway', sans-serif;
 
 }
+a{
+  text-decoration:0;
+}
 html{
     font-size: 62.5%;
     scroll-behavior:smooth;
@@ -42,12 +45,18 @@ header{
     padding:0 5%;
 
 }
-header .logo a{
+header .logo a {
     font-size: 25px;
     color: #29d9d5;
+    
 }
 header .logo a span{
     color:#fff;
+}
+.menu {
+    display: flex;
+    align-items:centre;
+
 }
 .menu li{
     margin:0 15px;
@@ -57,5 +66,13 @@ header .logo a span{
 .menu li a {
     color:#fff;
     font-size: 14px;
+}
+.btn-reservation{
+    color:#29d9d5;
+    font-size:14px;
+    border: 2px solid #29d9d5;
+    padding: 5px 20px;
+    transition:0.5s;
+
 }
 
